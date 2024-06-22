@@ -1,4 +1,4 @@
-{:deps    {io.github.timothypratley/happyapi {:mvn/version "0.1.89-alpha"}}
+{:deps    {io.github.timothypratley/happyapi {:mvn/version "0.1.91-alpha"}}
  :aliases {
            ;; BUILD with `clojure -T:dev:build build/jar`
            ;; DEPLOY with `env CLOJARS_USERNAME=username CLOJARS_PASSWORD=clojars-token clojure -T:dev:build build/deploy`
