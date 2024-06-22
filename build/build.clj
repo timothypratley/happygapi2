@@ -2,7 +2,7 @@
   (:require [clojure.tools.build.api :as b]
             [deps-deploy.deps-deploy :as dd]))
 
-(def lib 'io.github.timothypratley/happygapi)
+(def lib 'io.github.timothypratley/happygapi2)
 (def version (format "0.1.%s-alpha" (b/git-count-revs nil)))
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
