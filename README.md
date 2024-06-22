@@ -21,13 +21,14 @@ so that your editor can help you (autocomplete, help documentation, and arg chec
 
 Add the dependency to the project file:
 
-![clojars version](https://clojars.org/happygapi2/latest-version.svg)
 
-Require `happygapi.<<api>>` in the code:
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.timothypratley/happygapi2.svg)](https://clojars.org/io.github.timothypratley/happygapi2)
+
+Require `happygapi2.<<api>>` in the code:
 
 ```clojure
 (ns my.ns
-  (:require [happygapi.sheets :as sheets]))
+  (:require [happygapi2.sheets :as sheets]))
 
 (sheets/spreadsheets-get "SPREADSHEET-ID")
 ```
