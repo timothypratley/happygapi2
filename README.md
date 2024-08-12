@@ -2,6 +2,8 @@
 
 A Clojure library for calling [Google APIs](https://developers.google.com/apis-explorer); gsheets, drive, bigquery, and so on.
 
+**deprecated** This project has been replaced by [happyapi.google](https://github.com/timothypratley/happyapi.google)
+
 This project is the successor to [HappyGAPI (deprecated)](https://github.com/timothypratley/happygapi),
 the oauth2 and generation were moved to [HappyAPI](https://github.com/timothypratley/happyapi).
 The new artifact name `io.github.timothypratley/happygapi2` was introduced to avoid breaking changes.
